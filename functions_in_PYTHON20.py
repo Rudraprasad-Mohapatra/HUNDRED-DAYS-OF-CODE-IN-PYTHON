@@ -1,3 +1,4 @@
+# two types of function 1.Built-in function 2.Userdefined function
 def calculateGmean(a1,b1):
     gmean=(a1*b1)/(a1+b1)
     print(gmean)
