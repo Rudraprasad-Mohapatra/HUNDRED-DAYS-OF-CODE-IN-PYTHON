@@ -15,7 +15,7 @@ print(letter.format(name,country)) #print(letter.format(0,1))
 word=f"Hii My name is {name} and I am from {country}" #python will understand  word as f-string
 print(word)
 
-# if we want to print the word string as it is i.e. nothing will be replaed at {name},{country}
+# if we want to print the word string as it is i.e. nothing will be replaed at {name},{country} so use double {{name}} and {{country}}
 word=f"Hii My name is {{name}} and I am from {{country}}"
 print(word) #o/p is:- Hii My name is {name} and I am from {country}
 
