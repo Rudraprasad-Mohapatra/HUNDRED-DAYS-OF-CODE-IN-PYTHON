@@ -40,4 +40,4 @@ print(dic.items())    #dict_items([('Harry', 'Human Being'), ('Spoon', 'Object')
 for key,value in dic.items():
     print(f"The value corresponding to the key \"{key}\" is \"{value}\".")
 
-# e.g :- used for mrp of a product  like "product" as a "key" and "mrp" as a mappd "value". 
+# e.g :- used for mrp of a product  like "product" as a "key" and "mrp" as a mapped "value". 
