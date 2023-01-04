@@ -7,8 +7,8 @@ print(a.lower())
 
 # rstrip()
 b="!!!!HArryBhai !!!!!!!"
-print(b.rstrip('!')) # it will print !!!!HArryBhai i.e it will only rempve the "!" from end 
-print(b.rstrip("!")) # it will print !!!!HArryBhai i.e it will only rempve the "!" from end 
+print(b.rstrip('!')) # it will print !!!!HArryBhai i.e it will only remove the "!" from end 
+print(b.rstrip("!")) # it will print !!!!HArryBhai i.e it will only remove the "!" from end 
 
 # replace()
 ab="Harryarr,arr"
@@ -18,7 +18,7 @@ print(ab.replace("arr","0kl")) # will print H0kly
 # :-It coverts string into list ,string must contain " "
 ab="H arr y arr, arr"
 lis=ab.split()
-print(lis)
+print(lis,type(lis),lis[0])
 abd="H,arr,y,arr,,arr"
 liss=abd.split(',')
 print(liss)
