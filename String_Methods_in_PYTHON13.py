@@ -13,6 +13,10 @@ print(b.rstrip("!")) # it will print !!!!HArryBhai i.e it will only remove the "
 # replace()
 ab="Harryarr,arr"
 print(ab.replace("arr","0kl")) # will print H0kly
+# string.replace( character, replacement, count)  #count signifies how many times you want to replace
+ab=ab.replace('a','o',1)
+print(ab)
+
 
 # split()
 # :-It coverts string into list ,string must contain " "
@@ -89,3 +93,12 @@ print(str3.swapcase())
 
 #title():-converts  starting letter of all words to capital letters irrespective of case
 print(str3.title())
+
+# Reverse the string "Hello World":
+
+# txt = "Hello World"[::-1]
+# print(txt)
+
+# Create a slice that starts at the end of the string, and moves backwards.
+
+# In this particular example, the slice statement [::-1] means start at the end of the string and end at position 0, move with the step -1, negative one, which means one step backwards.
