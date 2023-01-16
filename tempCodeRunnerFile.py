@@ -1,0 +1,2 @@
+adline()
+print(line)
