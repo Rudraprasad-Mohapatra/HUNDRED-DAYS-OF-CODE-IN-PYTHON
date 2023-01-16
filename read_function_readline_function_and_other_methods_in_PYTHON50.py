@@ -29,7 +29,7 @@
 
 
 f=open('myfile5.txt','w')
-lines=['line 1\n','line 2\n','line 3\n']
+lines=['line 1\n','line 2\n','line 3\n'] #list is provided
 f.writelines(lines)
 f.close()
 # Note:-
