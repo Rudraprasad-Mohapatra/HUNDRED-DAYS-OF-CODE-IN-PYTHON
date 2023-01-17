@@ -1,2 +1,2 @@
-adline()
-print(line)
+data=f.read()
+    # print(data)  
