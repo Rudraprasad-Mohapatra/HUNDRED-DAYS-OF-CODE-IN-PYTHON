@@ -6,10 +6,17 @@ with open('myfile6.txt', 'r') as f:
     #Read the next 5 bytes
     # data=f.read()
     # print(data)   
-    data=f.read(5)
+    data=f.read(3)
     print(data)   
-    print(f.tell()) 
+    print(f.tell()) #you are at position 6
 
+
+# with open('sample.txt', 'w') as f:
+#   f.write('Hello World!') #Hello World! will be write in sample.txt file
+#   f.truncate(5) # Except first 5 characters all characters will be deleted 
+
+# with open('sample.txt', 'r') as f:
+#   print(f.read())
 
 
 
