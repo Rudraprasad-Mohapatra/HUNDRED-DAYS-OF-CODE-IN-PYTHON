@@ -1,2 +1,0 @@
-adline()
-print(line)
