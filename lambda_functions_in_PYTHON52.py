@@ -13,11 +13,11 @@ print(avg(3,4,5))
 cube=lambda x:x*x*x
 #passing function as argumnt
 
-def appl(fx,value):
-    return 6+fx(value) #6+8=14
+def appl(func,value):
+    return 6+func(value) #6+8=14
 # print(appl(cube,2))
 #       or
-print(appl(lambda x:x*x*x,2))
+print(appl(lambda x:x*x*x,2))#1st parameter is  function(func) and second is value
 """
 Annonymous:No name.
 Lambda Functions in Python
