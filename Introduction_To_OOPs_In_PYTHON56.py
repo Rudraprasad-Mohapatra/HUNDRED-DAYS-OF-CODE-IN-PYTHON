@@ -1,11 +1,21 @@
+# Bussiness Man-1
+sales1=6000
+profit1=20000
+ad1=5000
+# Bussiness Man-2
+sales2=5000
+profit2=10000
+ad2=1000
+# Bussiness Man-3
+sales3=3000
+profit3=20000
+ad3=2000
+# Bussiness Man-4
+sales4=1600
+profit4=32000
+ad4=8000
 
-
-
-
-
-
-
-
+#We have, given data of Businnes Men Now Computing anything  in above format for each bussinssman(object) is not a good approach.So that we need Class Object Concept to make codes maintainable and easy to create and understand.
 
 
 
