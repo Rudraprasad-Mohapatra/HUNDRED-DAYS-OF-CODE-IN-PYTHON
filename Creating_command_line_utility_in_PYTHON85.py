@@ -36,6 +36,13 @@ args = parser.parse_args()
 print(args.url)
 print(args.output,type(args.output))
 download_file(args.url, args.output)
+
+# in terminal give commands like 
+# e.g: python Creating_command_line_utility_in_PYTHON85.py https://www.sexyloops.com/movies/background.jpg --output hii1.jpg
+# e.g: python Creating_command_line_utility_in_PYTHON85.py https://www.sexyloops.com/movies/background.jpg -o hii2.jpg
+# e.g: python Creating_command_line_utility_in_PYTHON85.py https://www.sexyloops.com/movies/background.jpg 
+# e.g: python Creating_command_line_utility_in_PYTHON85.py https://www.sexyloops.com/movies/background.jpg --output harrybhaua.jpg
+# 
 """
 NOTES:
 Creating Command Line Utilities in Python
