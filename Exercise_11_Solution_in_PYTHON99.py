@@ -39,7 +39,7 @@ def takebreak():
     while (True):
         if val == True:
             notification.notify(title="Let's Start sir",
-                                message="will tell you to take a break after 1 hour.",
+                                message="will tell you to take a break and drink a glass of water after 1 hour.",
                                 timeout=10)
             # For 1 hour there will be no notification but
             # after 1 hour a notification will popup
@@ -51,8 +51,8 @@ def takebreak():
             Speak("Your 5 mins is over.")
         print("You have worked for 1 hour")
         Speak("You have worked for 1 hour")
-        print("Please Take a break Sir")
-        Speak("Please Take a break Sir")
+        print("Please take a break and drink a glass of water ,Sir.")
+        Speak("Please take a break and drink a glass of water ,Sir.")
         notification.notify(title="Break Notification",
                             message="Please do use your device after sometime as you have been continuously using it for 1 hour and it will affect your eyes",
                             timeout=10)
