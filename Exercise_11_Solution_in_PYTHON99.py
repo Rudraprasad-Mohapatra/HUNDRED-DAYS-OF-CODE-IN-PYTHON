@@ -1,5 +1,7 @@
 # Exercise 11 - DRINK WATER REMINDER
-# Write a python program which reminds you of drinking water every hour or two. Your program can either beep or send desktop notifications for a specific operating system
+# Write a python program which reminds you of drinking water every hour or two.
+# Your program can either beep or send desktop notifications
+# For a specific operating system
 
 import win32com.client
 from plyer import notification
@@ -12,8 +14,7 @@ def Speak(messageText):
     speaker = win32com.client.Dispatch("SAPI.SpVoice")
     speaker.speak(f"{messageText}")
 
-    # Creating the Take_break method that will create a pop-up notification for our windows
-
+# Creating the Take_break method that will create a pop-up notification for our windows
 
 def takebreak():
     print("Do you want to start your work sir? (yes/no) ")
